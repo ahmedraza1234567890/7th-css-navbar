@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 1 */
+.navbar {
+    background-color: lightblue;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.brand a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.list {
+    display: flex;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+.search-bar i {
+    color: black;
+    font-size: 25px;
+    border-left: 1px solid black;
+    padding-left: 15px;
+
+}
+
+/* 2 */
+
+#navbar2 {
+    background-color: lightblue;
+    margin-top: 35px;
+  }
+  
+  .sign-in{
+    color: black;
+  }
+
+/* 3 */
+/* Your existing CSS styles for the first and second navbars */
+
+#navbar3{
+    background-color: rgb(49, 137, 166); /* Change background color for the third and fourth navbars */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  #navbar3 .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: center; /* Center the brand name */
+    flex: 1; /* Occupy available space */
+  }
+  
+  #navbar3 .nav-button button {
+    padding: 8px 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Rest of your existing CSS styles for the third and fourth navbars */
+  /* 4 */
+  #navbar4 {
+    margin-top: 35px;
+    background-color: rgb(49, 137, 166); /* Change background color for the third and fourth navbars */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  #navbar4 .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: center; /* Center the brand name */
+    flex: 1; /* Occupy available space */
+  }
+  
+   #navbar4 .nav-button button {
+    padding: 12px 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* 5 */
+  .search-bar4 i{
+    color: black;
+    font-size: 35px; 
+
+
+ }
+
+ /* 6 */
+#icon-6{
+    font-size: 30px;
+}
+
+/* 7 */
+#a-7{
+    color: black;
+    text-decoration: none;
+}
+
+/* 8 */
+#Search{
+    font-size: 18px;
+}

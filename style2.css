@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+    background-color: rgb(197, 230, 230);
+    margin-top: 20px;
+}
+#link{
+    margin-left: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+input[type="placeholder"]{
+    color: aliceblue;
+}
+#c-row {
+    justify-content: space-between;
+
+}
+
+#c-row-fs {
+    font-size: 12px;
+}
+
+#c-row-fss {
+    font-size: 12px;
+}

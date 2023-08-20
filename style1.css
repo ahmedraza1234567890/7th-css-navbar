@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(130, 218, 218);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 10px;
+    color: white;
+    background-color: #1d0d96;
+}
+.a,
+.b,
+.c {
+    width: 100%;
+    margin-top: 100px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+h1{
+    color: red;
+    background-color: #1d0d96;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+/* A DIV WORK */
+.a img {
+    margin-left: 10%;
+}
+
+.a-ul {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    list-style: none;
+
+}
+
+.a-ul li {
+    margin-left: 20px;
+    transition: all 2s;
+    color: rgb(172, 167, 167);
+}
+
+.a-btn {
+    color: rgb(172, 167, 167);
+    background-color: #0088a9;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 8%;
+    transition: all 2s;
+    padding: 5px 20px;
+
+}
+
+/* B DIV WORK */
+.b img {
+
+    position: absolute;
+    right: 8%;
+}
+
+.b-ul {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 8%;
+    list-style: none;
+
+}
+
+.b-ul li {
+    margin-left: 25px;
+    transition: all 2s;
+    color: rgb(172, 167, 167);
+}
+
+.b-btn {
+    color: rgb(172, 167, 167);
+    background-color: #0088a9;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 28%;
+    top: 24px;
+    transition: all 2s;
+    padding: 5px 20px;
+
+}
+
+/* C DIV WORK */
+.c img {
+    margin-left: 10%;
+}
+
+.c-ul {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    right: 16%;
+    list-style: none;
+
+}
+
+.c-ul li {
+    margin-left: 20px;
+    transition: all 2s;
+    color: rgb(172, 167, 167);
+}
+
+.c-btn {
+    color: rgb(172, 167, 167);
+    background-color: #0088a9;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    transition: all 2s;
+    position: absolute;
+    right: 8%;
+    top: 20px;
+    padding: 5px 20px;
+
+}
+
+/* HOVER */
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.a-btn:hover,
+.b-btn:hover,
+.c-btn:hover {
+    color: white;
+    background-color: #1d0d96;
+    cursor: pointer;
+}

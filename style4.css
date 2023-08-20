@@ -1,0 +1,137 @@
+body{
+    margin-top: 50px;
+    padding: 0px;
+    color: white;
+}
+/* 1 */
+#link{
+    text-decoration: none;
+    color: red;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+#a-main{
+    height: 80px;
+    width: 95%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#a-1{
+    display: flex;
+    margin-top: 10px;
+}
+#icon{
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+#brand{
+    font-size: 20px;
+}
+#a-nav ul li{
+    display: inline;
+    margin: 20px;
+}
+#a-btn-1{
+    margin-right: 10px;
+    padding: 15px;
+    color: rgb(22, 179, 90);
+}
+#a-btn-2{
+
+    padding: 15px 25px;
+    background-color: red;
+    color: white;
+}
+
+/* 2 */
+#b-main{
+    height: 80px;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#b-1{
+    display: flex;
+}
+#icon{
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+#brand{
+    font-size: 20px;
+}
+#b-nav ul li{
+    display: inline;
+    margin: 25px;
+}
+#b-2{
+    display: flex;
+    margin-top: 10px;
+}
+#b-icon{
+    margin-right: 20px;  
+
+}
+#b-icon i{
+    margin-right: 10px;  
+      
+}
+
+/* 3 */
+#c-main{
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: seagreen;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#c-1{
+    display: flex;
+}
+#icon{
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+    /* margin-left: 30px; */
+}
+#brand{
+    font-size: 20px;
+}
+
+/* 4 */
+#d-main{
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(244, 82, 82);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#d-1{
+    display: flex;
+}
+#d-2{
+    margin-right: auto;
+}
+#icon-name{
+    font-size: 12px;
+}
